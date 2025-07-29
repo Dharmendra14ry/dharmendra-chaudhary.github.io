@@ -2,42 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dharmendra Chaudhary - Bhojpuri Fan</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Responsive Website</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>Dharmendra Chaudhary</h1>
-      <p class="tagline">Diehard Fan of Bhojpuri Cinema & Culture</p>
+      <h1 class="logo">MySite</h1>
+      <nav id="navbar">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+      </nav>
     </div>
   </header>
 
-  <section class="about">
+  <section id="home">
     <div class="container">
-      <h2>About Me</h2>
-      <p>Hello! I'm Dharmendra Chaudhary, a passionate admirer of Bhojpuri films, songs, and culture. From the golden hits of Manoj Tiwari to the energy of Khesari Lal Yadav, Bhojpuri is in my soul.</p>
+      <h2>Welcome to My Website</h2>
+      <p>This is a responsive homepage made using HTML, CSS, and JS.</p>
     </div>
   </section>
 
-  <section class="favorites">
+  <section id="about">
     <div class="container">
-      <h2>My Bhojpuri Favorites</h2>
-      <ul>
-        <li><strong>Actor:</strong> Pawan Singh</li>
-        <li><strong>Actress:</strong> Amrapali Dubey</li>
-        <li><strong>Song:</strong> "Lollipop Lagelu"</li>
-        <li><strong>Movie:</strong> Nirahua Hindustani</li>
-      </ul>
+      <h2>About Us</h2>
+      <p>We provide responsive web design services and modern UI/UX development.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
     </div>
   </section>
 
   <footer>
-    <div class="container">
-      <p>Contact: dharmendra@example.com</p>
-      <p>&copy; 2025 Dharmendra Chaudhary</p>
-    </div>
+    <p>&copy; 2025 MySite. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+S
