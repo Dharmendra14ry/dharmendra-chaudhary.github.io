@@ -206,6 +206,7 @@ main{
     margin-top: 25rem;
   }
   .robot{
+    background-origin: inherit;
     scale: 0.5;
     top: -25;
     right: 0;
